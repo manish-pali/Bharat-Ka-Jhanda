@@ -1,0 +1,78 @@
+        .box {
+            background-color: orangered;
+            height: 200px;
+            width: 450px;
+            position: relative;
+            top: 15px;
+            left: 40%;
+            z-index: -1;
+        }
+
+        .inner-box {
+            background-color: white;
+            height: inherit;
+            width: 450px;
+            height: 69px;
+            top: 69px;
+            position: absolute;
+        }
+
+        .circle {
+            background-color: blue;
+            border-radius: 50%;
+            width: 65px;
+            height: 61px;
+            position: absolute;
+            left: 190px;
+        }
+
+        .down {
+            position: absolute;
+            background-color: green;
+            width: 450px;
+            height: 70px;
+            top: 61px;
+        }
+
+        .jhanda {
+            background-color: brown;
+            height: 600px;
+            width: 20px;
+            position: absolute;
+            left: -20px;
+        }
+
+        .ground {
+            background-color: brown;
+            width: 100px;
+            height: 35px;
+            position: absolute;
+            bottom: 0px;
+            left: -40px;
+        }
+
+        .ground1 {
+            background-color: brown;
+            width: 170px;
+            height: 35px;
+            position: absolute;
+            left: -35px;
+            top: 25px;
+            border-color: black;
+            border: 1px;
+        }
+
+        .ground2 {
+            background-color: brown;
+            width: 250px;
+            height: 35px;
+            position: absolute;
+            top: 50px;
+            left: -70px;
+        }
+
+        .name {
+            font-size: 2rem;
+            position: absolute;
+            right: 50px;
+        }
