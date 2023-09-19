@@ -1,78 +1,158 @@
-        .box {
-            background-color: orangered;
-            height: 200px;
-            width: 450px;
-            position: relative;
-            top: 15px;
-            left: 40%;
-            z-index: -1;
-        }
+.box {
+    background-color: orangered;
+    height: 200px;
+    width: 450px;
+    position: relative;
+    top: 15px;
+    left: 40%;
+    z-index: -1;
+}
 
-        .inner-box {
-            background-color: white;
-            height: inherit;
-            width: 450px;
-            height: 69px;
-            top: 69px;
-            position: absolute;
-        }
+.inner-box {
+    background-color: white;
+    height: inherit;
+    width: 450px;
+    height: 69px;
+    top: 69px;
+    position: absolute;
+}
 
-        .circle {
-            background-color: blue;
-            border-radius: 50%;
-            width: 65px;
-            height: 61px;
-            position: absolute;
-            left: 190px;
-        }
+.circle {
+    background-color: blue;
+    border-radius: 50%;
+    width: 65px;
+    height: 61px;
+    position: absolute;
+    left: 190px;
+}
 
-        .down {
-            position: absolute;
-            background-color: green;
-            width: 450px;
-            height: 70px;
-            top: 61px;
-        }
+.down {
+    position: absolute;
+    background-color: green;
+    width: 450px;
+    height: 70px;
+    top: 61px;
+}
 
-        .jhanda {
-            background-color: brown;
-            height: 600px;
-            width: 20px;
-            position: absolute;
-            left: -20px;
-        }
+.jhanda {
+    background-color: brown;
+    height: 600px;
+    width: 20px;
+    position: absolute;
+    left: -20px;
+}
 
-        .ground {
-            background-color: brown;
-            width: 100px;
-            height: 35px;
-            position: absolute;
-            bottom: 0px;
-            left: -40px;
-        }
+.ground {
+    background-color: brown;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    left: -40px;
+}
 
-        .ground1 {
-            background-color: brown;
-            width: 170px;
-            height: 35px;
-            position: absolute;
-            left: -35px;
-            top: 25px;
-            border-color: black;
-            border: 1px;
-        }
+.ground1 {
+    background-color: brown;
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    left: -35px;
+    top: 25px;
+    border-color: black;
+    border: 1px;
+}
 
-        .ground2 {
-            background-color: brown;
-            width: 250px;
-            height: 35px;
-            position: absolute;
-            top: 50px;
-            left: -70px;
-        }
+.ground2 {
+    background-color: brown;
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    left: -70px;
+}
 
-        .name {
-            font-size: 2rem;
-            position: absolute;
-            right: 50px;
-        }
+.name {
+    font-size: 2rem;
+    position: absolute;
+    right: 50px;
+}
+
+.line {
+    background-color: white;
+    height: 1px;
+    position: relative;
+    top: 30.5px;
+}
+
+.line>div {
+    height: 61px;
+    background-color: white;
+    position: absolute;
+    top: -30px;
+    right: 33px;
+    width: 1px;
+}
+
+.line1 {
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    /* left: 34px; */
+    right: 33.5px;
+    top: -8px;
+    transform: rotate(-47deg);
+}
+
+.line2 {
+    height: 78px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    /* left: 34px; */
+    right: 33.5px;
+    top: -8px;
+    transform: rotate(-132deg);
+}
+
+.line3 {
+    height: 74px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    left: 29px;
+    right: 23.5px;
+    top: -1px;
+    transform: rotate(-156deg);
+}
+
+.line4 {
+    height: 74px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    left: 33px;
+    right: 23.5px;
+    top: -1px;
+    transform: rotate(-202deg);
+}
+
+.line5 {
+    height: 74px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    left: 33px;
+    top: -7px;
+    transform: rotate(-290deg);
+}
+
+.line6 {
+    height: 74px;
+    background-color: white;
+    position: absolute;
+    width: 1px;
+    left: 33px;
+    top: -5px;
+    transform: rotate(-428deg);
+}
